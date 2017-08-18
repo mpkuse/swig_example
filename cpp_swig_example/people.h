@@ -17,6 +17,8 @@ class People{
     void set_dob( std::vector<int> );
     void get_dob();
 
+    void set_image( std::vector<float> v, std::vector<int> dim);
+
   private:
     string name;
 
