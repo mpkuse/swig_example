@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -13,9 +14,14 @@ class People{
     string get_name();
     void set_name(string name);
 
+    void set_dob( std::vector<int> );
+    void get_dob();
+
   private:
     string name;
 
+    std::vector<int> v;
+
 };
 
-#endif 
+#endif
